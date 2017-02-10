@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Day6.RTBV</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -43,8 +46,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Program1.cs" />
+    <Compile Include="Quiz.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RTBR.cs" />
+    <Compile Include="RTBV.cs" />
+    <Compile Include="VTBR.cs" />
+    <Compile Include="VTBV.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
