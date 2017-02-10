@@ -15,6 +15,9 @@ namespace Day6
         {
             x = 5;
             PrintX();
+
+//            int x = 5;
+//            PrintX(x);
         }
 
         public static void PrintX()

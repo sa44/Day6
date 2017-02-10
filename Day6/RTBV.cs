@@ -17,7 +17,7 @@ namespace Day6
 
             multiply(a, 2);
 
-            Console.Write("Before method call, a = ");
+            Console.Write("After method call, a = ");
             PrintArray(a);
 
             expand(a);
